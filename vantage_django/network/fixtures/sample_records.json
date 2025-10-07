@@ -1,0 +1,3902 @@
+[
+  {
+    "model": "network.record",
+    "pk": 1,
+    "fields": {
+      "timestamp": "2025-01-01T12:00:00",
+      "src_ip": "10.0.0.4",
+      "dst_ip": "192.168.1.11",
+      "proto": "UDP",
+      "src_port": null,
+      "dst_port": 8080,
+      "length": 1116
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 2,
+    "fields": {
+      "timestamp": "2025-01-01T12:01:00",
+      "src_ip": "10.0.0.34",
+      "dst_ip": "192.168.1.26",
+      "proto": "UDP",
+      "src_port": 5000,
+      "dst_port": 22,
+      "length": 1085
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 3,
+    "fields": {
+      "timestamp": "2025-01-01T12:02:00",
+      "src_ip": "10.0.0.44",
+      "dst_ip": "192.168.1.30",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 3306,
+      "length": 417
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 4,
+    "fields": {
+      "timestamp": "2025-01-01T12:03:00",
+      "src_ip": "10.0.0.42",
+      "dst_ip": "192.168.1.19",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 22,
+      "length": 208
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 5,
+    "fields": {
+      "timestamp": "2025-01-01T12:04:00",
+      "src_ip": "10.0.0.50",
+      "dst_ip": "192.168.1.14",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 22,
+      "length": 1296
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 6,
+    "fields": {
+      "timestamp": "2025-01-01T12:05:00",
+      "src_ip": "10.0.0.3",
+      "dst_ip": "192.168.1.16",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 3306,
+      "length": 1234
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 7,
+    "fields": {
+      "timestamp": "2025-01-01T12:06:00",
+      "src_ip": "10.0.0.37",
+      "dst_ip": "192.168.1.7",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 8080,
+      "length": 1315
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 8,
+    "fields": {
+      "timestamp": "2025-01-01T12:07:00",
+      "src_ip": "10.0.0.28",
+      "dst_ip": "192.168.1.34",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 3306,
+      "length": 1266
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 9,
+    "fields": {
+      "timestamp": "2025-01-01T12:08:00",
+      "src_ip": "10.0.0.26",
+      "dst_ip": "192.168.1.27",
+      "proto": "TCP",
+      "src_port": 80,
+      "dst_port": 22,
+      "length": 1116
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 10,
+    "fields": {
+      "timestamp": "2025-01-01T12:09:00",
+      "src_ip": "10.0.0.48",
+      "dst_ip": "192.168.1.18",
+      "proto": "UDP",
+      "src_port": null,
+      "dst_port": 3306,
+      "length": 1069
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 11,
+    "fields": {
+      "timestamp": "2025-01-01T12:10:00",
+      "src_ip": "10.0.0.10",
+      "dst_ip": "192.168.1.24",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 123,
+      "length": 1052
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 12,
+    "fields": {
+      "timestamp": "2025-01-01T12:11:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.31",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 80,
+      "length": 908
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 13,
+    "fields": {
+      "timestamp": "2025-01-01T12:12:00",
+      "src_ip": "10.0.0.20",
+      "dst_ip": "192.168.1.27",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 53,
+      "length": 906
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 14,
+    "fields": {
+      "timestamp": "2025-01-01T12:13:00",
+      "src_ip": "10.0.0.30",
+      "dst_ip": "192.168.1.21",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 3306,
+      "length": 964
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 15,
+    "fields": {
+      "timestamp": "2025-01-01T12:14:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.29",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": null,
+      "length": 1335
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 16,
+    "fields": {
+      "timestamp": "2025-01-01T12:15:00",
+      "src_ip": "10.0.0.6",
+      "dst_ip": "192.168.1.4",
+      "proto": "UDP",
+      "src_port": 5000,
+      "dst_port": 80,
+      "length": 712
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 17,
+    "fields": {
+      "timestamp": "2025-01-01T12:16:00",
+      "src_ip": "10.0.0.7",
+      "dst_ip": "192.168.1.30",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 22,
+      "length": 314
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 18,
+    "fields": {
+      "timestamp": "2025-01-01T12:17:00",
+      "src_ip": "10.0.0.25",
+      "dst_ip": "192.168.1.1",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 443,
+      "length": 739
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 19,
+    "fields": {
+      "timestamp": "2025-01-01T12:18:00",
+      "src_ip": "10.0.0.17",
+      "dst_ip": "192.168.1.17",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 53,
+      "length": 1118
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 20,
+    "fields": {
+      "timestamp": "2025-01-01T12:19:00",
+      "src_ip": "10.0.0.45",
+      "dst_ip": "192.168.1.23",
+      "proto": "UDP",
+      "src_port": 22,
+      "dst_port": 53,
+      "length": 783
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 21,
+    "fields": {
+      "timestamp": "2025-01-01T12:20:00",
+      "src_ip": "10.0.0.12",
+      "dst_ip": "192.168.1.10",
+      "proto": "TCP",
+      "src_port": 22,
+      "dst_port": 8080,
+      "length": 421
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 22,
+    "fields": {
+      "timestamp": "2025-01-01T12:21:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.4",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 8080,
+      "length": 549
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 23,
+    "fields": {
+      "timestamp": "2025-01-01T12:22:00",
+      "src_ip": "10.0.0.40",
+      "dst_ip": "192.168.1.22",
+      "proto": "ICMP",
+      "src_port": 5000,
+      "dst_port": 80,
+      "length": 902
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 24,
+    "fields": {
+      "timestamp": "2025-01-01T12:23:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.18",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 53,
+      "length": 1308
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 25,
+    "fields": {
+      "timestamp": "2025-01-01T12:24:00",
+      "src_ip": "10.0.0.34",
+      "dst_ip": "192.168.1.44",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 443,
+      "length": 1299
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 26,
+    "fields": {
+      "timestamp": "2025-01-01T12:25:00",
+      "src_ip": "10.0.0.45",
+      "dst_ip": "192.168.1.38",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 123,
+      "length": 1396
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 27,
+    "fields": {
+      "timestamp": "2025-01-01T12:26:00",
+      "src_ip": "10.0.0.3",
+      "dst_ip": "192.168.1.24",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 8080,
+      "length": 966
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 28,
+    "fields": {
+      "timestamp": "2025-01-01T12:27:00",
+      "src_ip": "10.0.0.4",
+      "dst_ip": "192.168.1.11",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": null,
+      "length": 886
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 29,
+    "fields": {
+      "timestamp": "2025-01-01T12:28:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.37",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 5432,
+      "length": 548
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 30,
+    "fields": {
+      "timestamp": "2025-01-01T12:29:00",
+      "src_ip": "10.0.0.5",
+      "dst_ip": "192.168.1.44",
+      "proto": "TCP",
+      "src_port": 80,
+      "dst_port": 3306,
+      "length": 336
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 31,
+    "fields": {
+      "timestamp": "2025-01-01T12:30:00",
+      "src_ip": "10.0.0.20",
+      "dst_ip": "192.168.1.6",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 5000,
+      "length": 360
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 32,
+    "fields": {
+      "timestamp": "2025-01-01T12:31:00",
+      "src_ip": "10.0.0.45",
+      "dst_ip": "192.168.1.24",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 80,
+      "length": 798
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 33,
+    "fields": {
+      "timestamp": "2025-01-01T12:32:00",
+      "src_ip": "10.0.0.34",
+      "dst_ip": "192.168.1.18",
+      "proto": "TCP",
+      "src_port": 53,
+      "dst_port": 22,
+      "length": 463
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 34,
+    "fields": {
+      "timestamp": "2025-01-01T12:33:00",
+      "src_ip": "10.0.0.19",
+      "dst_ip": "192.168.1.20",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 3306,
+      "length": 537
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 35,
+    "fields": {
+      "timestamp": "2025-01-01T12:34:00",
+      "src_ip": "10.0.0.9",
+      "dst_ip": "192.168.1.25",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 53,
+      "length": 239
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 36,
+    "fields": {
+      "timestamp": "2025-01-01T12:35:00",
+      "src_ip": "10.0.0.36",
+      "dst_ip": "192.168.1.6",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 22,
+      "length": 735
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 37,
+    "fields": {
+      "timestamp": "2025-01-01T12:36:00",
+      "src_ip": "10.0.0.25",
+      "dst_ip": "192.168.1.24",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 123,
+      "length": 89
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 38,
+    "fields": {
+      "timestamp": "2025-01-01T12:37:00",
+      "src_ip": "10.0.0.42",
+      "dst_ip": "192.168.1.11",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 5000,
+      "length": 1252
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 39,
+    "fields": {
+      "timestamp": "2025-01-01T12:38:00",
+      "src_ip": "10.0.0.17",
+      "dst_ip": "192.168.1.49",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": null,
+      "length": 654
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 40,
+    "fields": {
+      "timestamp": "2025-01-01T12:39:00",
+      "src_ip": "10.0.0.26",
+      "dst_ip": "192.168.1.40",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 53,
+      "length": 117
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 41,
+    "fields": {
+      "timestamp": "2025-01-01T12:40:00",
+      "src_ip": "10.0.0.30",
+      "dst_ip": "192.168.1.44",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 123,
+      "length": 717
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 42,
+    "fields": {
+      "timestamp": "2025-01-01T12:41:00",
+      "src_ip": "10.0.0.20",
+      "dst_ip": "192.168.1.34",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 5000,
+      "length": 631
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 43,
+    "fields": {
+      "timestamp": "2025-01-01T12:42:00",
+      "src_ip": "10.0.0.5",
+      "dst_ip": "192.168.1.40",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 3306,
+      "length": 1145
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 44,
+    "fields": {
+      "timestamp": "2025-01-01T12:43:00",
+      "src_ip": "10.0.0.3",
+      "dst_ip": "192.168.1.37",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 443,
+      "length": 1309
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 45,
+    "fields": {
+      "timestamp": "2025-01-01T12:44:00",
+      "src_ip": "10.0.0.37",
+      "dst_ip": "192.168.1.19",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 3306,
+      "length": 1249
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 46,
+    "fields": {
+      "timestamp": "2025-01-01T12:45:00",
+      "src_ip": "10.0.0.24",
+      "dst_ip": "192.168.1.38",
+      "proto": "TCP",
+      "src_port": 53,
+      "dst_port": 22,
+      "length": 78
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 47,
+    "fields": {
+      "timestamp": "2025-01-01T12:46:00",
+      "src_ip": "10.0.0.30",
+      "dst_ip": "192.168.1.2",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 3306,
+      "length": 1079
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 48,
+    "fields": {
+      "timestamp": "2025-01-01T12:47:00",
+      "src_ip": "10.0.0.30",
+      "dst_ip": "192.168.1.45",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 53,
+      "length": 713
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 49,
+    "fields": {
+      "timestamp": "2025-01-01T12:48:00",
+      "src_ip": "10.0.0.23",
+      "dst_ip": "192.168.1.2",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 5432,
+      "length": 832
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 50,
+    "fields": {
+      "timestamp": "2025-01-01T12:49:00",
+      "src_ip": "10.0.0.23",
+      "dst_ip": "192.168.1.31",
+      "proto": "ICMP",
+      "src_port": 5000,
+      "dst_port": 80,
+      "length": 1026
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 51,
+    "fields": {
+      "timestamp": "2025-01-01T12:50:00",
+      "src_ip": "10.0.0.4",
+      "dst_ip": "192.168.1.25",
+      "proto": "UDP",
+      "src_port": null,
+      "dst_port": 5000,
+      "length": 507
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 52,
+    "fields": {
+      "timestamp": "2025-01-01T12:51:00",
+      "src_ip": "10.0.0.34",
+      "dst_ip": "192.168.1.30",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 5000,
+      "length": 310
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 53,
+    "fields": {
+      "timestamp": "2025-01-01T12:52:00",
+      "src_ip": "10.0.0.33",
+      "dst_ip": "192.168.1.6",
+      "proto": "TCP",
+      "src_port": 22,
+      "dst_port": 5432,
+      "length": 887
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 54,
+    "fields": {
+      "timestamp": "2025-01-01T12:53:00",
+      "src_ip": "10.0.0.26",
+      "dst_ip": "192.168.1.10",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 80,
+      "length": 1002
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 55,
+    "fields": {
+      "timestamp": "2025-01-01T12:54:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.11",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 22,
+      "length": 1042
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 56,
+    "fields": {
+      "timestamp": "2025-01-01T12:55:00",
+      "src_ip": "10.0.0.22",
+      "dst_ip": "192.168.1.40",
+      "proto": "TCP",
+      "src_port": 22,
+      "dst_port": null,
+      "length": 640
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 57,
+    "fields": {
+      "timestamp": "2025-01-01T12:56:00",
+      "src_ip": "10.0.0.32",
+      "dst_ip": "192.168.1.20",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 5000,
+      "length": 217
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 58,
+    "fields": {
+      "timestamp": "2025-01-01T12:57:00",
+      "src_ip": "10.0.0.25",
+      "dst_ip": "192.168.1.48",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 80,
+      "length": 1348
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 59,
+    "fields": {
+      "timestamp": "2025-01-01T12:58:00",
+      "src_ip": "10.0.0.23",
+      "dst_ip": "192.168.1.15",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 123,
+      "length": 859
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 60,
+    "fields": {
+      "timestamp": "2025-01-01T12:59:00",
+      "src_ip": "10.0.0.45",
+      "dst_ip": "192.168.1.42",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 53,
+      "length": 559
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 61,
+    "fields": {
+      "timestamp": "2025-01-01T13:00:00",
+      "src_ip": "10.0.0.45",
+      "dst_ip": "192.168.1.20",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 5000,
+      "length": 851
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 62,
+    "fields": {
+      "timestamp": "2025-01-01T13:01:00",
+      "src_ip": "10.0.0.14",
+      "dst_ip": "192.168.1.20",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 5432,
+      "length": 313
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 63,
+    "fields": {
+      "timestamp": "2025-01-01T13:02:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.26",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 5000,
+      "length": 986
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 64,
+    "fields": {
+      "timestamp": "2025-01-01T13:03:00",
+      "src_ip": "10.0.0.31",
+      "dst_ip": "192.168.1.1",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 443,
+      "length": 1103
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 65,
+    "fields": {
+      "timestamp": "2025-01-01T13:04:00",
+      "src_ip": "10.0.0.23",
+      "dst_ip": "192.168.1.4",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 5000,
+      "length": 859
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 66,
+    "fields": {
+      "timestamp": "2025-01-01T13:05:00",
+      "src_ip": "10.0.0.11",
+      "dst_ip": "192.168.1.5",
+      "proto": "UDP",
+      "src_port": null,
+      "dst_port": 3306,
+      "length": 615
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 67,
+    "fields": {
+      "timestamp": "2025-01-01T13:06:00",
+      "src_ip": "10.0.0.8",
+      "dst_ip": "192.168.1.34",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 443,
+      "length": 1149
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 68,
+    "fields": {
+      "timestamp": "2025-01-01T13:07:00",
+      "src_ip": "10.0.0.28",
+      "dst_ip": "192.168.1.36",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 22,
+      "length": 271
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 69,
+    "fields": {
+      "timestamp": "2025-01-01T13:08:00",
+      "src_ip": "10.0.0.22",
+      "dst_ip": "192.168.1.37",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 80,
+      "length": 1204
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 70,
+    "fields": {
+      "timestamp": "2025-01-01T13:09:00",
+      "src_ip": "10.0.0.30",
+      "dst_ip": "192.168.1.19",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 123,
+      "length": 1172
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 71,
+    "fields": {
+      "timestamp": "2025-01-01T13:10:00",
+      "src_ip": "10.0.0.47",
+      "dst_ip": "192.168.1.35",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": null,
+      "length": 265
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 72,
+    "fields": {
+      "timestamp": "2025-01-01T13:11:00",
+      "src_ip": "10.0.0.31",
+      "dst_ip": "192.168.1.22",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 22,
+      "length": 694
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 73,
+    "fields": {
+      "timestamp": "2025-01-01T13:12:00",
+      "src_ip": "10.0.0.2",
+      "dst_ip": "192.168.1.39",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 80,
+      "length": 130
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 74,
+    "fields": {
+      "timestamp": "2025-01-01T13:13:00",
+      "src_ip": "10.0.0.38",
+      "dst_ip": "192.168.1.24",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 80,
+      "length": 524
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 75,
+    "fields": {
+      "timestamp": "2025-01-01T13:14:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.41",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 22,
+      "length": 759
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 76,
+    "fields": {
+      "timestamp": "2025-01-01T13:15:00",
+      "src_ip": "10.0.0.28",
+      "dst_ip": "192.168.1.47",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 22,
+      "length": 794
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 77,
+    "fields": {
+      "timestamp": "2025-01-01T13:16:00",
+      "src_ip": "10.0.0.2",
+      "dst_ip": "192.168.1.18",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 443,
+      "length": 416
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 78,
+    "fields": {
+      "timestamp": "2025-01-01T13:17:00",
+      "src_ip": "10.0.0.41",
+      "dst_ip": "192.168.1.35",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 3306,
+      "length": 1259
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 79,
+    "fields": {
+      "timestamp": "2025-01-01T13:18:00",
+      "src_ip": "10.0.0.3",
+      "dst_ip": "192.168.1.36",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 53,
+      "length": 645
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 80,
+    "fields": {
+      "timestamp": "2025-01-01T13:19:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.13",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 5432,
+      "length": 797
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 81,
+    "fields": {
+      "timestamp": "2025-01-01T13:20:00",
+      "src_ip": "10.0.0.36",
+      "dst_ip": "192.168.1.2",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 3306,
+      "length": 277
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 82,
+    "fields": {
+      "timestamp": "2025-01-01T13:21:00",
+      "src_ip": "10.0.0.50",
+      "dst_ip": "192.168.1.6",
+      "proto": "TCP",
+      "src_port": 22,
+      "dst_port": 8080,
+      "length": 861
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 83,
+    "fields": {
+      "timestamp": "2025-01-01T13:22:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.35",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 8080,
+      "length": 955
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 84,
+    "fields": {
+      "timestamp": "2025-01-01T13:23:00",
+      "src_ip": "10.0.0.45",
+      "dst_ip": "192.168.1.43",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 8080,
+      "length": 1158
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 85,
+    "fields": {
+      "timestamp": "2025-01-01T13:24:00",
+      "src_ip": "10.0.0.30",
+      "dst_ip": "192.168.1.41",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": null,
+      "length": 480
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 86,
+    "fields": {
+      "timestamp": "2025-01-01T13:25:00",
+      "src_ip": "10.0.0.33",
+      "dst_ip": "192.168.1.12",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 53,
+      "length": 684
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 87,
+    "fields": {
+      "timestamp": "2025-01-01T13:26:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.10",
+      "proto": "ICMP",
+      "src_port": 5000,
+      "dst_port": 53,
+      "length": 824
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 88,
+    "fields": {
+      "timestamp": "2025-01-01T13:27:00",
+      "src_ip": "10.0.0.39",
+      "dst_ip": "192.168.1.8",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 53,
+      "length": 1329
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 89,
+    "fields": {
+      "timestamp": "2025-01-01T13:28:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.25",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 53,
+      "length": 819
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 90,
+    "fields": {
+      "timestamp": "2025-01-01T13:29:00",
+      "src_ip": "10.0.0.11",
+      "dst_ip": "192.168.1.15",
+      "proto": "TCP",
+      "src_port": 80,
+      "dst_port": 443,
+      "length": 159
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 91,
+    "fields": {
+      "timestamp": "2025-01-01T13:30:00",
+      "src_ip": "10.0.0.36",
+      "dst_ip": "192.168.1.38",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 3306,
+      "length": 615
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 92,
+    "fields": {
+      "timestamp": "2025-01-01T13:31:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.12",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 5000,
+      "length": 1003
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 93,
+    "fields": {
+      "timestamp": "2025-01-01T13:32:00",
+      "src_ip": "10.0.0.13",
+      "dst_ip": "192.168.1.21",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 5000,
+      "length": 975
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 94,
+    "fields": {
+      "timestamp": "2025-01-01T13:33:00",
+      "src_ip": "10.0.0.5",
+      "dst_ip": "192.168.1.3",
+      "proto": "UDP",
+      "src_port": 22,
+      "dst_port": 443,
+      "length": 549
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 95,
+    "fields": {
+      "timestamp": "2025-01-01T13:34:00",
+      "src_ip": "10.0.0.30",
+      "dst_ip": "192.168.1.38",
+      "proto": "UDP",
+      "src_port": 22,
+      "dst_port": null,
+      "length": 1145
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 96,
+    "fields": {
+      "timestamp": "2025-01-01T13:35:00",
+      "src_ip": "10.0.0.49",
+      "dst_ip": "192.168.1.19",
+      "proto": "TCP",
+      "src_port": 53,
+      "dst_port": 5432,
+      "length": 179
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 97,
+    "fields": {
+      "timestamp": "2025-01-01T13:36:00",
+      "src_ip": "10.0.0.26",
+      "dst_ip": "192.168.1.15",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 123,
+      "length": 411
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 98,
+    "fields": {
+      "timestamp": "2025-01-01T13:37:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.37",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 5432,
+      "length": 981
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 99,
+    "fields": {
+      "timestamp": "2025-01-01T13:38:00",
+      "src_ip": "10.0.0.23",
+      "dst_ip": "192.168.1.6",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 53,
+      "length": 1293
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 100,
+    "fields": {
+      "timestamp": "2025-01-01T13:39:00",
+      "src_ip": "10.0.0.26",
+      "dst_ip": "192.168.1.14",
+      "proto": "TCP",
+      "src_port": 80,
+      "dst_port": 5432,
+      "length": 1366
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 101,
+    "fields": {
+      "timestamp": "2025-01-01T13:40:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.3",
+      "proto": "ICMP",
+      "src_port": null,
+      "dst_port": 53,
+      "length": 1278
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 102,
+    "fields": {
+      "timestamp": "2025-01-01T13:41:00",
+      "src_ip": "10.0.0.12",
+      "dst_ip": "192.168.1.40",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 80,
+      "length": 1318
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 103,
+    "fields": {
+      "timestamp": "2025-01-01T13:42:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.26",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 123,
+      "length": 1362
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 104,
+    "fields": {
+      "timestamp": "2025-01-01T13:43:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.38",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 8080,
+      "length": 693
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 105,
+    "fields": {
+      "timestamp": "2025-01-01T13:44:00",
+      "src_ip": "10.0.0.35",
+      "dst_ip": "192.168.1.4",
+      "proto": "ICMP",
+      "src_port": null,
+      "dst_port": 22,
+      "length": 610
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 106,
+    "fields": {
+      "timestamp": "2025-01-01T13:45:00",
+      "src_ip": "10.0.0.26",
+      "dst_ip": "192.168.1.46",
+      "proto": "UDP",
+      "src_port": null,
+      "dst_port": null,
+      "length": 283
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 107,
+    "fields": {
+      "timestamp": "2025-01-01T13:46:00",
+      "src_ip": "10.0.0.2",
+      "dst_ip": "192.168.1.44",
+      "proto": "UDP",
+      "src_port": null,
+      "dst_port": 3306,
+      "length": 555
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 108,
+    "fields": {
+      "timestamp": "2025-01-01T13:47:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.14",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 80,
+      "length": 1044
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 109,
+    "fields": {
+      "timestamp": "2025-01-01T13:48:00",
+      "src_ip": "10.0.0.44",
+      "dst_ip": "192.168.1.33",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 53,
+      "length": 693
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 110,
+    "fields": {
+      "timestamp": "2025-01-01T13:49:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.41",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 3306,
+      "length": 487
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 111,
+    "fields": {
+      "timestamp": "2025-01-01T13:50:00",
+      "src_ip": "10.0.0.49",
+      "dst_ip": "192.168.1.12",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 5432,
+      "length": 987
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 112,
+    "fields": {
+      "timestamp": "2025-01-01T13:51:00",
+      "src_ip": "10.0.0.24",
+      "dst_ip": "192.168.1.29",
+      "proto": "ICMP",
+      "src_port": 5000,
+      "dst_port": 5000,
+      "length": 251
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 113,
+    "fields": {
+      "timestamp": "2025-01-01T13:52:00",
+      "src_ip": "10.0.0.17",
+      "dst_ip": "192.168.1.16",
+      "proto": "ICMP",
+      "src_port": null,
+      "dst_port": 5000,
+      "length": 1177
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 114,
+    "fields": {
+      "timestamp": "2025-01-01T13:53:00",
+      "src_ip": "10.0.0.46",
+      "dst_ip": "192.168.1.13",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": null,
+      "length": 621
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 115,
+    "fields": {
+      "timestamp": "2025-01-01T13:54:00",
+      "src_ip": "10.0.0.16",
+      "dst_ip": "192.168.1.6",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 5432,
+      "length": 920
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 116,
+    "fields": {
+      "timestamp": "2025-01-01T13:55:00",
+      "src_ip": "10.0.0.8",
+      "dst_ip": "192.168.1.16",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 123,
+      "length": 626
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 117,
+    "fields": {
+      "timestamp": "2025-01-01T13:56:00",
+      "src_ip": "10.0.0.25",
+      "dst_ip": "192.168.1.22",
+      "proto": "UDP",
+      "src_port": 22,
+      "dst_port": 22,
+      "length": 326
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 118,
+    "fields": {
+      "timestamp": "2025-01-01T13:57:00",
+      "src_ip": "10.0.0.41",
+      "dst_ip": "192.168.1.49",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 80,
+      "length": 143
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 119,
+    "fields": {
+      "timestamp": "2025-01-01T13:58:00",
+      "src_ip": "10.0.0.44",
+      "dst_ip": "192.168.1.35",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": null,
+      "length": 725
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 120,
+    "fields": {
+      "timestamp": "2025-01-01T13:59:00",
+      "src_ip": "10.0.0.42",
+      "dst_ip": "192.168.1.23",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 53,
+      "length": 390
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 121,
+    "fields": {
+      "timestamp": "2025-01-01T14:00:00",
+      "src_ip": "10.0.0.48",
+      "dst_ip": "192.168.1.16",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 443,
+      "length": 477
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 122,
+    "fields": {
+      "timestamp": "2025-01-01T14:01:00",
+      "src_ip": "10.0.0.37",
+      "dst_ip": "192.168.1.21",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": null,
+      "length": 1367
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 123,
+    "fields": {
+      "timestamp": "2025-01-01T14:02:00",
+      "src_ip": "10.0.0.34",
+      "dst_ip": "192.168.1.10",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 53,
+      "length": 60
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 124,
+    "fields": {
+      "timestamp": "2025-01-01T14:03:00",
+      "src_ip": "10.0.0.24",
+      "dst_ip": "192.168.1.8",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 123,
+      "length": 830
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 125,
+    "fields": {
+      "timestamp": "2025-01-01T14:04:00",
+      "src_ip": "10.0.0.6",
+      "dst_ip": "192.168.1.36",
+      "proto": "UDP",
+      "src_port": 5000,
+      "dst_port": 80,
+      "length": 899
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 126,
+    "fields": {
+      "timestamp": "2025-01-01T14:05:00",
+      "src_ip": "10.0.0.3",
+      "dst_ip": "192.168.1.20",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 53,
+      "length": 1011
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 127,
+    "fields": {
+      "timestamp": "2025-01-01T14:06:00",
+      "src_ip": "10.0.0.36",
+      "dst_ip": "192.168.1.17",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 8080,
+      "length": 352
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 128,
+    "fields": {
+      "timestamp": "2025-01-01T14:07:00",
+      "src_ip": "10.0.0.11",
+      "dst_ip": "192.168.1.7",
+      "proto": "ICMP",
+      "src_port": null,
+      "dst_port": 3306,
+      "length": 185
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 129,
+    "fields": {
+      "timestamp": "2025-01-01T14:08:00",
+      "src_ip": "10.0.0.4",
+      "dst_ip": "192.168.1.7",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 53,
+      "length": 237
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 130,
+    "fields": {
+      "timestamp": "2025-01-01T14:09:00",
+      "src_ip": "10.0.0.44",
+      "dst_ip": "192.168.1.39",
+      "proto": "UDP",
+      "src_port": 5000,
+      "dst_port": 22,
+      "length": 1352
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 131,
+    "fields": {
+      "timestamp": "2025-01-01T14:10:00",
+      "src_ip": "10.0.0.15",
+      "dst_ip": "192.168.1.27",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 80,
+      "length": 350
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 132,
+    "fields": {
+      "timestamp": "2025-01-01T14:11:00",
+      "src_ip": "10.0.0.13",
+      "dst_ip": "192.168.1.43",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 22,
+      "length": 548
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 133,
+    "fields": {
+      "timestamp": "2025-01-01T14:12:00",
+      "src_ip": "10.0.0.3",
+      "dst_ip": "192.168.1.35",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 443,
+      "length": 925
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 134,
+    "fields": {
+      "timestamp": "2025-01-01T14:13:00",
+      "src_ip": "10.0.0.7",
+      "dst_ip": "192.168.1.14",
+      "proto": "TCP",
+      "src_port": 80,
+      "dst_port": 8080,
+      "length": 528
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 135,
+    "fields": {
+      "timestamp": "2025-01-01T14:14:00",
+      "src_ip": "10.0.0.32",
+      "dst_ip": "192.168.1.43",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": null,
+      "length": 1153
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 136,
+    "fields": {
+      "timestamp": "2025-01-01T14:15:00",
+      "src_ip": "10.0.0.43",
+      "dst_ip": "192.168.1.26",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 5432,
+      "length": 247
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 137,
+    "fields": {
+      "timestamp": "2025-01-01T14:16:00",
+      "src_ip": "10.0.0.25",
+      "dst_ip": "192.168.1.12",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 443,
+      "length": 1118
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 138,
+    "fields": {
+      "timestamp": "2025-01-01T14:17:00",
+      "src_ip": "10.0.0.14",
+      "dst_ip": "192.168.1.42",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 8080,
+      "length": 373
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 139,
+    "fields": {
+      "timestamp": "2025-01-01T14:18:00",
+      "src_ip": "10.0.0.9",
+      "dst_ip": "192.168.1.36",
+      "proto": "TCP",
+      "src_port": 22,
+      "dst_port": 22,
+      "length": 1052
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 140,
+    "fields": {
+      "timestamp": "2025-01-01T14:19:00",
+      "src_ip": "10.0.0.49",
+      "dst_ip": "192.168.1.21",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 123,
+      "length": 528
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 141,
+    "fields": {
+      "timestamp": "2025-01-01T14:20:00",
+      "src_ip": "10.0.0.33",
+      "dst_ip": "192.168.1.6",
+      "proto": "TCP",
+      "src_port": 80,
+      "dst_port": 22,
+      "length": 344
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 142,
+    "fields": {
+      "timestamp": "2025-01-01T14:21:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.4",
+      "proto": "TCP",
+      "src_port": 53,
+      "dst_port": 123,
+      "length": 1243
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 143,
+    "fields": {
+      "timestamp": "2025-01-01T14:22:00",
+      "src_ip": "10.0.0.15",
+      "dst_ip": "192.168.1.3",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 123,
+      "length": 672
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 144,
+    "fields": {
+      "timestamp": "2025-01-01T14:23:00",
+      "src_ip": "10.0.0.9",
+      "dst_ip": "192.168.1.4",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 5000,
+      "length": 359
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 145,
+    "fields": {
+      "timestamp": "2025-01-01T14:24:00",
+      "src_ip": "10.0.0.34",
+      "dst_ip": "192.168.1.26",
+      "proto": "TCP",
+      "src_port": 80,
+      "dst_port": 123,
+      "length": 147
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 146,
+    "fields": {
+      "timestamp": "2025-01-01T14:25:00",
+      "src_ip": "10.0.0.26",
+      "dst_ip": "192.168.1.42",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 53,
+      "length": 78
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 147,
+    "fields": {
+      "timestamp": "2025-01-01T14:26:00",
+      "src_ip": "10.0.0.5",
+      "dst_ip": "192.168.1.12",
+      "proto": "TCP",
+      "src_port": 22,
+      "dst_port": 22,
+      "length": 929
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 148,
+    "fields": {
+      "timestamp": "2025-01-01T14:27:00",
+      "src_ip": "10.0.0.40",
+      "dst_ip": "192.168.1.11",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 80,
+      "length": 703
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 149,
+    "fields": {
+      "timestamp": "2025-01-01T14:28:00",
+      "src_ip": "10.0.0.14",
+      "dst_ip": "192.168.1.11",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 123,
+      "length": 1064
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 150,
+    "fields": {
+      "timestamp": "2025-01-01T14:29:00",
+      "src_ip": "10.0.0.35",
+      "dst_ip": "192.168.1.48",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 53,
+      "length": 509
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 151,
+    "fields": {
+      "timestamp": "2025-01-01T14:30:00",
+      "src_ip": "10.0.0.4",
+      "dst_ip": "192.168.1.44",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 123,
+      "length": 1161
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 152,
+    "fields": {
+      "timestamp": "2025-01-01T14:31:00",
+      "src_ip": "10.0.0.23",
+      "dst_ip": "192.168.1.39",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 443,
+      "length": 389
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 153,
+    "fields": {
+      "timestamp": "2025-01-01T14:32:00",
+      "src_ip": "10.0.0.23",
+      "dst_ip": "192.168.1.15",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 5432,
+      "length": 1003
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 154,
+    "fields": {
+      "timestamp": "2025-01-01T14:33:00",
+      "src_ip": "10.0.0.46",
+      "dst_ip": "192.168.1.41",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 8080,
+      "length": 1068
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 155,
+    "fields": {
+      "timestamp": "2025-01-01T14:34:00",
+      "src_ip": "10.0.0.45",
+      "dst_ip": "192.168.1.27",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 123,
+      "length": 173
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 156,
+    "fields": {
+      "timestamp": "2025-01-01T14:35:00",
+      "src_ip": "10.0.0.18",
+      "dst_ip": "192.168.1.18",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 5000,
+      "length": 745
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 157,
+    "fields": {
+      "timestamp": "2025-01-01T14:36:00",
+      "src_ip": "10.0.0.36",
+      "dst_ip": "192.168.1.31",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 5000,
+      "length": 1240
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 158,
+    "fields": {
+      "timestamp": "2025-01-01T14:37:00",
+      "src_ip": "10.0.0.26",
+      "dst_ip": "192.168.1.19",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 22,
+      "length": 926
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 159,
+    "fields": {
+      "timestamp": "2025-01-01T14:38:00",
+      "src_ip": "10.0.0.43",
+      "dst_ip": "192.168.1.26",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 5432,
+      "length": 383
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 160,
+    "fields": {
+      "timestamp": "2025-01-01T14:39:00",
+      "src_ip": "10.0.0.43",
+      "dst_ip": "192.168.1.37",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 3306,
+      "length": 509
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 161,
+    "fields": {
+      "timestamp": "2025-01-01T14:40:00",
+      "src_ip": "10.0.0.15",
+      "dst_ip": "192.168.1.25",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 123,
+      "length": 1080
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 162,
+    "fields": {
+      "timestamp": "2025-01-01T14:41:00",
+      "src_ip": "10.0.0.4",
+      "dst_ip": "192.168.1.7",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 80,
+      "length": 1027
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 163,
+    "fields": {
+      "timestamp": "2025-01-01T14:42:00",
+      "src_ip": "10.0.0.40",
+      "dst_ip": "192.168.1.24",
+      "proto": "TCP",
+      "src_port": 53,
+      "dst_port": 22,
+      "length": 158
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 164,
+    "fields": {
+      "timestamp": "2025-01-01T14:43:00",
+      "src_ip": "10.0.0.42",
+      "dst_ip": "192.168.1.50",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 5432,
+      "length": 753
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 165,
+    "fields": {
+      "timestamp": "2025-01-01T14:44:00",
+      "src_ip": "10.0.0.5",
+      "dst_ip": "192.168.1.38",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": null,
+      "length": 1092
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 166,
+    "fields": {
+      "timestamp": "2025-01-01T14:45:00",
+      "src_ip": "10.0.0.38",
+      "dst_ip": "192.168.1.15",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 5000,
+      "length": 209
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 167,
+    "fields": {
+      "timestamp": "2025-01-01T14:46:00",
+      "src_ip": "10.0.0.50",
+      "dst_ip": "192.168.1.41",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 3306,
+      "length": 988
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 168,
+    "fields": {
+      "timestamp": "2025-01-01T14:47:00",
+      "src_ip": "10.0.0.14",
+      "dst_ip": "192.168.1.50",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 8080,
+      "length": 1309
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 169,
+    "fields": {
+      "timestamp": "2025-01-01T14:48:00",
+      "src_ip": "10.0.0.14",
+      "dst_ip": "192.168.1.19",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 5000,
+      "length": 935
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 170,
+    "fields": {
+      "timestamp": "2025-01-01T14:49:00",
+      "src_ip": "10.0.0.8",
+      "dst_ip": "192.168.1.16",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 5000,
+      "length": 333
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 171,
+    "fields": {
+      "timestamp": "2025-01-01T14:50:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.41",
+      "proto": "ICMP",
+      "src_port": null,
+      "dst_port": 22,
+      "length": 923
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 172,
+    "fields": {
+      "timestamp": "2025-01-01T14:51:00",
+      "src_ip": "10.0.0.16",
+      "dst_ip": "192.168.1.25",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 3306,
+      "length": 1184
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 173,
+    "fields": {
+      "timestamp": "2025-01-01T14:52:00",
+      "src_ip": "10.0.0.16",
+      "dst_ip": "192.168.1.34",
+      "proto": "UDP",
+      "src_port": 22,
+      "dst_port": 80,
+      "length": 204
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 174,
+    "fields": {
+      "timestamp": "2025-01-01T14:53:00",
+      "src_ip": "10.0.0.8",
+      "dst_ip": "192.168.1.10",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 5000,
+      "length": 1319
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 175,
+    "fields": {
+      "timestamp": "2025-01-01T14:54:00",
+      "src_ip": "10.0.0.35",
+      "dst_ip": "192.168.1.29",
+      "proto": "UDP",
+      "src_port": null,
+      "dst_port": 22,
+      "length": 681
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 176,
+    "fields": {
+      "timestamp": "2025-01-01T14:55:00",
+      "src_ip": "10.0.0.16",
+      "dst_ip": "192.168.1.12",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 53,
+      "length": 1131
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 177,
+    "fields": {
+      "timestamp": "2025-01-01T14:56:00",
+      "src_ip": "10.0.0.13",
+      "dst_ip": "192.168.1.2",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 443,
+      "length": 1268
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 178,
+    "fields": {
+      "timestamp": "2025-01-01T14:57:00",
+      "src_ip": "10.0.0.16",
+      "dst_ip": "192.168.1.45",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 22,
+      "length": 1174
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 179,
+    "fields": {
+      "timestamp": "2025-01-01T14:58:00",
+      "src_ip": "10.0.0.34",
+      "dst_ip": "192.168.1.31",
+      "proto": "TCP",
+      "src_port": 22,
+      "dst_port": 80,
+      "length": 560
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 180,
+    "fields": {
+      "timestamp": "2025-01-01T14:59:00",
+      "src_ip": "10.0.0.48",
+      "dst_ip": "192.168.1.18",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 5432,
+      "length": 172
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 181,
+    "fields": {
+      "timestamp": "2025-01-01T15:00:00",
+      "src_ip": "10.0.0.44",
+      "dst_ip": "192.168.1.18",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 22,
+      "length": 781
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 182,
+    "fields": {
+      "timestamp": "2025-01-01T15:01:00",
+      "src_ip": "10.0.0.6",
+      "dst_ip": "192.168.1.18",
+      "proto": "UDP",
+      "src_port": null,
+      "dst_port": 3306,
+      "length": 951
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 183,
+    "fields": {
+      "timestamp": "2025-01-01T15:02:00",
+      "src_ip": "10.0.0.48",
+      "dst_ip": "192.168.1.42",
+      "proto": "TCP",
+      "src_port": 22,
+      "dst_port": 8080,
+      "length": 411
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 184,
+    "fields": {
+      "timestamp": "2025-01-01T15:03:00",
+      "src_ip": "10.0.0.28",
+      "dst_ip": "192.168.1.21",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 123,
+      "length": 1004
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 185,
+    "fields": {
+      "timestamp": "2025-01-01T15:04:00",
+      "src_ip": "10.0.0.31",
+      "dst_ip": "192.168.1.16",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 22,
+      "length": 118
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 186,
+    "fields": {
+      "timestamp": "2025-01-01T15:05:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.1",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 3306,
+      "length": 1213
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 187,
+    "fields": {
+      "timestamp": "2025-01-01T15:06:00",
+      "src_ip": "10.0.0.9",
+      "dst_ip": "192.168.1.26",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 123,
+      "length": 1342
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 188,
+    "fields": {
+      "timestamp": "2025-01-01T15:07:00",
+      "src_ip": "10.0.0.44",
+      "dst_ip": "192.168.1.25",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 53,
+      "length": 1053
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 189,
+    "fields": {
+      "timestamp": "2025-01-01T15:08:00",
+      "src_ip": "10.0.0.19",
+      "dst_ip": "192.168.1.38",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 3306,
+      "length": 519
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 190,
+    "fields": {
+      "timestamp": "2025-01-01T15:09:00",
+      "src_ip": "10.0.0.35",
+      "dst_ip": "192.168.1.22",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": null,
+      "length": 1321
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 191,
+    "fields": {
+      "timestamp": "2025-01-01T15:10:00",
+      "src_ip": "10.0.0.7",
+      "dst_ip": "192.168.1.12",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 80,
+      "length": 838
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 192,
+    "fields": {
+      "timestamp": "2025-01-01T15:11:00",
+      "src_ip": "10.0.0.29",
+      "dst_ip": "192.168.1.24",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 8080,
+      "length": 904
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 193,
+    "fields": {
+      "timestamp": "2025-01-01T15:12:00",
+      "src_ip": "10.0.0.50",
+      "dst_ip": "192.168.1.17",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 123,
+      "length": 355
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 194,
+    "fields": {
+      "timestamp": "2025-01-01T15:13:00",
+      "src_ip": "10.0.0.19",
+      "dst_ip": "192.168.1.10",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 22,
+      "length": 285
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 195,
+    "fields": {
+      "timestamp": "2025-01-01T15:14:00",
+      "src_ip": "10.0.0.4",
+      "dst_ip": "192.168.1.4",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 5000,
+      "length": 915
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 196,
+    "fields": {
+      "timestamp": "2025-01-01T15:15:00",
+      "src_ip": "10.0.0.37",
+      "dst_ip": "192.168.1.15",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 123,
+      "length": 1299
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 197,
+    "fields": {
+      "timestamp": "2025-01-01T15:16:00",
+      "src_ip": "10.0.0.3",
+      "dst_ip": "192.168.1.18",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 5000,
+      "length": 742
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 198,
+    "fields": {
+      "timestamp": "2025-01-01T15:17:00",
+      "src_ip": "10.0.0.4",
+      "dst_ip": "192.168.1.20",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 443,
+      "length": 71
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 199,
+    "fields": {
+      "timestamp": "2025-01-01T15:18:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.21",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 53,
+      "length": 1178
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 200,
+    "fields": {
+      "timestamp": "2025-01-01T15:19:00",
+      "src_ip": "10.0.0.41",
+      "dst_ip": "192.168.1.37",
+      "proto": "ICMP",
+      "src_port": 5000,
+      "dst_port": 53,
+      "length": 495
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 201,
+    "fields": {
+      "timestamp": "2025-01-01T15:20:00",
+      "src_ip": "10.0.0.8",
+      "dst_ip": "192.168.1.42",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 5432,
+      "length": 379
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 202,
+    "fields": {
+      "timestamp": "2025-01-01T15:21:00",
+      "src_ip": "10.0.0.18",
+      "dst_ip": "192.168.1.10",
+      "proto": "UDP",
+      "src_port": null,
+      "dst_port": 53,
+      "length": 1299
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 203,
+    "fields": {
+      "timestamp": "2025-01-01T15:22:00",
+      "src_ip": "10.0.0.22",
+      "dst_ip": "192.168.1.18",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 80,
+      "length": 929
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 204,
+    "fields": {
+      "timestamp": "2025-01-01T15:23:00",
+      "src_ip": "10.0.0.29",
+      "dst_ip": "192.168.1.7",
+      "proto": "TCP",
+      "src_port": 22,
+      "dst_port": 22,
+      "length": 879
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 205,
+    "fields": {
+      "timestamp": "2025-01-01T15:24:00",
+      "src_ip": "10.0.0.14",
+      "dst_ip": "192.168.1.33",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 80,
+      "length": 1367
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 206,
+    "fields": {
+      "timestamp": "2025-01-01T15:25:00",
+      "src_ip": "10.0.0.39",
+      "dst_ip": "192.168.1.10",
+      "proto": "UDP",
+      "src_port": null,
+      "dst_port": 80,
+      "length": 1141
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 207,
+    "fields": {
+      "timestamp": "2025-01-01T15:26:00",
+      "src_ip": "10.0.0.12",
+      "dst_ip": "192.168.1.11",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 8080,
+      "length": 740
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 208,
+    "fields": {
+      "timestamp": "2025-01-01T15:27:00",
+      "src_ip": "10.0.0.26",
+      "dst_ip": "192.168.1.48",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 5432,
+      "length": 762
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 209,
+    "fields": {
+      "timestamp": "2025-01-01T15:28:00",
+      "src_ip": "10.0.0.39",
+      "dst_ip": "192.168.1.49",
+      "proto": "UDP",
+      "src_port": 5000,
+      "dst_port": 5432,
+      "length": 1034
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 210,
+    "fields": {
+      "timestamp": "2025-01-01T15:29:00",
+      "src_ip": "10.0.0.8",
+      "dst_ip": "192.168.1.31",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 5000,
+      "length": 549
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 211,
+    "fields": {
+      "timestamp": "2025-01-01T15:30:00",
+      "src_ip": "10.0.0.30",
+      "dst_ip": "192.168.1.28",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 443,
+      "length": 495
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 212,
+    "fields": {
+      "timestamp": "2025-01-01T15:31:00",
+      "src_ip": "10.0.0.11",
+      "dst_ip": "192.168.1.40",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 3306,
+      "length": 934
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 213,
+    "fields": {
+      "timestamp": "2025-01-01T15:32:00",
+      "src_ip": "10.0.0.33",
+      "dst_ip": "192.168.1.15",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 5000,
+      "length": 71
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 214,
+    "fields": {
+      "timestamp": "2025-01-01T15:33:00",
+      "src_ip": "10.0.0.49",
+      "dst_ip": "192.168.1.30",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 80,
+      "length": 867
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 215,
+    "fields": {
+      "timestamp": "2025-01-01T15:34:00",
+      "src_ip": "10.0.0.4",
+      "dst_ip": "192.168.1.37",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 22,
+      "length": 1259
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 216,
+    "fields": {
+      "timestamp": "2025-01-01T15:35:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.47",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 123,
+      "length": 1257
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 217,
+    "fields": {
+      "timestamp": "2025-01-01T15:36:00",
+      "src_ip": "10.0.0.10",
+      "dst_ip": "192.168.1.46",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 80,
+      "length": 628
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 218,
+    "fields": {
+      "timestamp": "2025-01-01T15:37:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.45",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 123,
+      "length": 596
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 219,
+    "fields": {
+      "timestamp": "2025-01-01T15:38:00",
+      "src_ip": "10.0.0.35",
+      "dst_ip": "192.168.1.17",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 22,
+      "length": 1345
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 220,
+    "fields": {
+      "timestamp": "2025-01-01T15:39:00",
+      "src_ip": "10.0.0.32",
+      "dst_ip": "192.168.1.27",
+      "proto": "UDP",
+      "src_port": 22,
+      "dst_port": 22,
+      "length": 1021
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 221,
+    "fields": {
+      "timestamp": "2025-01-01T15:40:00",
+      "src_ip": "10.0.0.41",
+      "dst_ip": "192.168.1.11",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 22,
+      "length": 480
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 222,
+    "fields": {
+      "timestamp": "2025-01-01T15:41:00",
+      "src_ip": "10.0.0.16",
+      "dst_ip": "192.168.1.25",
+      "proto": "UDP",
+      "src_port": 5000,
+      "dst_port": 22,
+      "length": 833
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 223,
+    "fields": {
+      "timestamp": "2025-01-01T15:42:00",
+      "src_ip": "10.0.0.16",
+      "dst_ip": "192.168.1.44",
+      "proto": "TCP",
+      "src_port": 53,
+      "dst_port": 53,
+      "length": 278
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 224,
+    "fields": {
+      "timestamp": "2025-01-01T15:43:00",
+      "src_ip": "10.0.0.39",
+      "dst_ip": "192.168.1.18",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 5000,
+      "length": 1394
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 225,
+    "fields": {
+      "timestamp": "2025-01-01T15:44:00",
+      "src_ip": "10.0.0.28",
+      "dst_ip": "192.168.1.14",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 53,
+      "length": 1080
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 226,
+    "fields": {
+      "timestamp": "2025-01-01T15:45:00",
+      "src_ip": "10.0.0.29",
+      "dst_ip": "192.168.1.4",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 22,
+      "length": 956
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 227,
+    "fields": {
+      "timestamp": "2025-01-01T15:46:00",
+      "src_ip": "10.0.0.44",
+      "dst_ip": "192.168.1.31",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": null,
+      "length": 208
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 228,
+    "fields": {
+      "timestamp": "2025-01-01T15:47:00",
+      "src_ip": "10.0.0.9",
+      "dst_ip": "192.168.1.8",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": null,
+      "length": 302
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 229,
+    "fields": {
+      "timestamp": "2025-01-01T15:48:00",
+      "src_ip": "10.0.0.32",
+      "dst_ip": "192.168.1.4",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 443,
+      "length": 305
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 230,
+    "fields": {
+      "timestamp": "2025-01-01T15:49:00",
+      "src_ip": "10.0.0.29",
+      "dst_ip": "192.168.1.32",
+      "proto": "UDP",
+      "src_port": 5000,
+      "dst_port": 123,
+      "length": 667
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 231,
+    "fields": {
+      "timestamp": "2025-01-01T15:50:00",
+      "src_ip": "10.0.0.37",
+      "dst_ip": "192.168.1.33",
+      "proto": "ICMP",
+      "src_port": null,
+      "dst_port": 5000,
+      "length": 354
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 232,
+    "fields": {
+      "timestamp": "2025-01-01T15:51:00",
+      "src_ip": "10.0.0.2",
+      "dst_ip": "192.168.1.45",
+      "proto": "ICMP",
+      "src_port": 5000,
+      "dst_port": 5432,
+      "length": 625
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 233,
+    "fields": {
+      "timestamp": "2025-01-01T15:52:00",
+      "src_ip": "10.0.0.41",
+      "dst_ip": "192.168.1.29",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 5000,
+      "length": 373
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 234,
+    "fields": {
+      "timestamp": "2025-01-01T15:53:00",
+      "src_ip": "10.0.0.15",
+      "dst_ip": "192.168.1.48",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 5432,
+      "length": 1259
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 235,
+    "fields": {
+      "timestamp": "2025-01-01T15:54:00",
+      "src_ip": "10.0.0.33",
+      "dst_ip": "192.168.1.40",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 123,
+      "length": 268
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 236,
+    "fields": {
+      "timestamp": "2025-01-01T15:55:00",
+      "src_ip": "10.0.0.45",
+      "dst_ip": "192.168.1.7",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 22,
+      "length": 1049
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 237,
+    "fields": {
+      "timestamp": "2025-01-01T15:56:00",
+      "src_ip": "10.0.0.29",
+      "dst_ip": "192.168.1.32",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 5000,
+      "length": 717
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 238,
+    "fields": {
+      "timestamp": "2025-01-01T15:57:00",
+      "src_ip": "10.0.0.33",
+      "dst_ip": "192.168.1.30",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 123,
+      "length": 417
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 239,
+    "fields": {
+      "timestamp": "2025-01-01T15:58:00",
+      "src_ip": "10.0.0.46",
+      "dst_ip": "192.168.1.32",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": null,
+      "length": 895
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 240,
+    "fields": {
+      "timestamp": "2025-01-01T15:59:00",
+      "src_ip": "10.0.0.10",
+      "dst_ip": "192.168.1.8",
+      "proto": "UDP",
+      "src_port": 22,
+      "dst_port": 80,
+      "length": 217
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 241,
+    "fields": {
+      "timestamp": "2025-01-01T16:00:00",
+      "src_ip": "10.0.0.39",
+      "dst_ip": "192.168.1.1",
+      "proto": "TCP",
+      "src_port": 22,
+      "dst_port": 3306,
+      "length": 1093
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 242,
+    "fields": {
+      "timestamp": "2025-01-01T16:01:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.23",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 5000,
+      "length": 569
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 243,
+    "fields": {
+      "timestamp": "2025-01-01T16:02:00",
+      "src_ip": "10.0.0.19",
+      "dst_ip": "192.168.1.27",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 123,
+      "length": 1277
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 244,
+    "fields": {
+      "timestamp": "2025-01-01T16:03:00",
+      "src_ip": "10.0.0.16",
+      "dst_ip": "192.168.1.34",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 8080,
+      "length": 834
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 245,
+    "fields": {
+      "timestamp": "2025-01-01T16:04:00",
+      "src_ip": "10.0.0.16",
+      "dst_ip": "192.168.1.24",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 80,
+      "length": 428
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 246,
+    "fields": {
+      "timestamp": "2025-01-01T16:05:00",
+      "src_ip": "10.0.0.25",
+      "dst_ip": "192.168.1.19",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 80,
+      "length": 448
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 247,
+    "fields": {
+      "timestamp": "2025-01-01T16:06:00",
+      "src_ip": "10.0.0.6",
+      "dst_ip": "192.168.1.6",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 53,
+      "length": 1055
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 248,
+    "fields": {
+      "timestamp": "2025-01-01T16:07:00",
+      "src_ip": "10.0.0.33",
+      "dst_ip": "192.168.1.34",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 80,
+      "length": 1379
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 249,
+    "fields": {
+      "timestamp": "2025-01-01T16:08:00",
+      "src_ip": "10.0.0.14",
+      "dst_ip": "192.168.1.18",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 5000,
+      "length": 1307
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 250,
+    "fields": {
+      "timestamp": "2025-01-01T16:09:00",
+      "src_ip": "10.0.0.47",
+      "dst_ip": "192.168.1.14",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 22,
+      "length": 485
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 251,
+    "fields": {
+      "timestamp": "2025-01-01T16:10:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.30",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 123,
+      "length": 448
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 252,
+    "fields": {
+      "timestamp": "2025-01-01T16:11:00",
+      "src_ip": "10.0.0.29",
+      "dst_ip": "192.168.1.49",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 5000,
+      "length": 1049
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 253,
+    "fields": {
+      "timestamp": "2025-01-01T16:12:00",
+      "src_ip": "10.0.0.40",
+      "dst_ip": "192.168.1.39",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 22,
+      "length": 1004
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 254,
+    "fields": {
+      "timestamp": "2025-01-01T16:13:00",
+      "src_ip": "10.0.0.8",
+      "dst_ip": "192.168.1.28",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 3306,
+      "length": 184
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 255,
+    "fields": {
+      "timestamp": "2025-01-01T16:14:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.29",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 443,
+      "length": 610
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 256,
+    "fields": {
+      "timestamp": "2025-01-01T16:15:00",
+      "src_ip": "10.0.0.36",
+      "dst_ip": "192.168.1.5",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 5432,
+      "length": 752
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 257,
+    "fields": {
+      "timestamp": "2025-01-01T16:16:00",
+      "src_ip": "10.0.0.16",
+      "dst_ip": "192.168.1.22",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": null,
+      "length": 302
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 258,
+    "fields": {
+      "timestamp": "2025-01-01T16:17:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.22",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 80,
+      "length": 1074
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 259,
+    "fields": {
+      "timestamp": "2025-01-01T16:18:00",
+      "src_ip": "10.0.0.23",
+      "dst_ip": "192.168.1.31",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": null,
+      "length": 80
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 260,
+    "fields": {
+      "timestamp": "2025-01-01T16:19:00",
+      "src_ip": "10.0.0.32",
+      "dst_ip": "192.168.1.49",
+      "proto": "UDP",
+      "src_port": 5000,
+      "dst_port": 22,
+      "length": 1094
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 261,
+    "fields": {
+      "timestamp": "2025-01-01T16:20:00",
+      "src_ip": "10.0.0.6",
+      "dst_ip": "192.168.1.41",
+      "proto": "TCP",
+      "src_port": 443,
+      "dst_port": 5000,
+      "length": 534
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 262,
+    "fields": {
+      "timestamp": "2025-01-01T16:21:00",
+      "src_ip": "10.0.0.31",
+      "dst_ip": "192.168.1.33",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": null,
+      "length": 91
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 263,
+    "fields": {
+      "timestamp": "2025-01-01T16:22:00",
+      "src_ip": "10.0.0.25",
+      "dst_ip": "192.168.1.41",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 8080,
+      "length": 1216
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 264,
+    "fields": {
+      "timestamp": "2025-01-01T16:23:00",
+      "src_ip": "10.0.0.30",
+      "dst_ip": "192.168.1.24",
+      "proto": "UDP",
+      "src_port": 443,
+      "dst_port": 123,
+      "length": 78
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 265,
+    "fields": {
+      "timestamp": "2025-01-01T16:24:00",
+      "src_ip": "10.0.0.8",
+      "dst_ip": "192.168.1.45",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 22,
+      "length": 459
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 266,
+    "fields": {
+      "timestamp": "2025-01-01T16:25:00",
+      "src_ip": "10.0.0.31",
+      "dst_ip": "192.168.1.14",
+      "proto": "ICMP",
+      "src_port": 5000,
+      "dst_port": 22,
+      "length": 1214
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 267,
+    "fields": {
+      "timestamp": "2025-01-01T16:26:00",
+      "src_ip": "10.0.0.23",
+      "dst_ip": "192.168.1.29",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 8080,
+      "length": 146
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 268,
+    "fields": {
+      "timestamp": "2025-01-01T16:27:00",
+      "src_ip": "10.0.0.1",
+      "dst_ip": "192.168.1.25",
+      "proto": "ICMP",
+      "src_port": 123,
+      "dst_port": 5432,
+      "length": 287
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 269,
+    "fields": {
+      "timestamp": "2025-01-01T16:28:00",
+      "src_ip": "10.0.0.39",
+      "dst_ip": "192.168.1.33",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 80,
+      "length": 1197
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 270,
+    "fields": {
+      "timestamp": "2025-01-01T16:29:00",
+      "src_ip": "10.0.0.22",
+      "dst_ip": "192.168.1.41",
+      "proto": "UDP",
+      "src_port": 8080,
+      "dst_port": 80,
+      "length": 990
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 271,
+    "fields": {
+      "timestamp": "2025-01-01T16:30:00",
+      "src_ip": "10.0.0.31",
+      "dst_ip": "192.168.1.26",
+      "proto": "TCP",
+      "src_port": null,
+      "dst_port": 53,
+      "length": 930
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 272,
+    "fields": {
+      "timestamp": "2025-01-01T16:31:00",
+      "src_ip": "10.0.0.11",
+      "dst_ip": "192.168.1.3",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 80,
+      "length": 1188
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 273,
+    "fields": {
+      "timestamp": "2025-01-01T16:32:00",
+      "src_ip": "10.0.0.13",
+      "dst_ip": "192.168.1.4",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 3306,
+      "length": 421
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 274,
+    "fields": {
+      "timestamp": "2025-01-01T16:33:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.27",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": null,
+      "length": 796
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 275,
+    "fields": {
+      "timestamp": "2025-01-01T16:34:00",
+      "src_ip": "10.0.0.39",
+      "dst_ip": "192.168.1.41",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 5432,
+      "length": 1173
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 276,
+    "fields": {
+      "timestamp": "2025-01-01T16:35:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.48",
+      "proto": "UDP",
+      "src_port": 80,
+      "dst_port": 5000,
+      "length": 441
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 277,
+    "fields": {
+      "timestamp": "2025-01-01T16:36:00",
+      "src_ip": "10.0.0.4",
+      "dst_ip": "192.168.1.34",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": 53,
+      "length": 1147
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 278,
+    "fields": {
+      "timestamp": "2025-01-01T16:37:00",
+      "src_ip": "10.0.0.24",
+      "dst_ip": "192.168.1.2",
+      "proto": "ICMP",
+      "src_port": null,
+      "dst_port": 5432,
+      "length": 75
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 279,
+    "fields": {
+      "timestamp": "2025-01-01T16:38:00",
+      "src_ip": "10.0.0.12",
+      "dst_ip": "192.168.1.36",
+      "proto": "ICMP",
+      "src_port": 22,
+      "dst_port": 5000,
+      "length": 1225
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 280,
+    "fields": {
+      "timestamp": "2025-01-01T16:39:00",
+      "src_ip": "10.0.0.29",
+      "dst_ip": "192.168.1.21",
+      "proto": "TCP",
+      "src_port": 80,
+      "dst_port": null,
+      "length": 311
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 281,
+    "fields": {
+      "timestamp": "2025-01-01T16:40:00",
+      "src_ip": "10.0.0.38",
+      "dst_ip": "192.168.1.18",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 8080,
+      "length": 602
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 282,
+    "fields": {
+      "timestamp": "2025-01-01T16:41:00",
+      "src_ip": "10.0.0.13",
+      "dst_ip": "192.168.1.28",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": 443,
+      "length": 956
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 283,
+    "fields": {
+      "timestamp": "2025-01-01T16:42:00",
+      "src_ip": "10.0.0.27",
+      "dst_ip": "192.168.1.40",
+      "proto": "ICMP",
+      "src_port": 5000,
+      "dst_port": 5000,
+      "length": 209
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 284,
+    "fields": {
+      "timestamp": "2025-01-01T16:43:00",
+      "src_ip": "10.0.0.2",
+      "dst_ip": "192.168.1.18",
+      "proto": "UDP",
+      "src_port": 5000,
+      "dst_port": null,
+      "length": 1239
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 285,
+    "fields": {
+      "timestamp": "2025-01-01T16:44:00",
+      "src_ip": "10.0.0.23",
+      "dst_ip": "192.168.1.42",
+      "proto": "ICMP",
+      "src_port": 8080,
+      "dst_port": 443,
+      "length": 1311
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 286,
+    "fields": {
+      "timestamp": "2025-01-01T16:45:00",
+      "src_ip": "10.0.0.2",
+      "dst_ip": "192.168.1.20",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 80,
+      "length": 1325
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 287,
+    "fields": {
+      "timestamp": "2025-01-01T16:46:00",
+      "src_ip": "10.0.0.25",
+      "dst_ip": "192.168.1.41",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 443,
+      "length": 854
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 288,
+    "fields": {
+      "timestamp": "2025-01-01T16:47:00",
+      "src_ip": "10.0.0.40",
+      "dst_ip": "192.168.1.27",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 22,
+      "length": 1163
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 289,
+    "fields": {
+      "timestamp": "2025-01-01T16:48:00",
+      "src_ip": "10.0.0.18",
+      "dst_ip": "192.168.1.14",
+      "proto": "UDP",
+      "src_port": 53,
+      "dst_port": 80,
+      "length": 519
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 290,
+    "fields": {
+      "timestamp": "2025-01-01T16:49:00",
+      "src_ip": "10.0.0.31",
+      "dst_ip": "192.168.1.47",
+      "proto": "UDP",
+      "src_port": 22,
+      "dst_port": 5432,
+      "length": 524
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 291,
+    "fields": {
+      "timestamp": "2025-01-01T16:50:00",
+      "src_ip": "10.0.0.12",
+      "dst_ip": "192.168.1.50",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 53,
+      "length": 907
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 292,
+    "fields": {
+      "timestamp": "2025-01-01T16:51:00",
+      "src_ip": "10.0.0.13",
+      "dst_ip": "192.168.1.37",
+      "proto": "ICMP",
+      "src_port": 80,
+      "dst_port": null,
+      "length": 304
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 293,
+    "fields": {
+      "timestamp": "2025-01-01T16:52:00",
+      "src_ip": "10.0.0.22",
+      "dst_ip": "192.168.1.22",
+      "proto": "TCP",
+      "src_port": 8080,
+      "dst_port": 123,
+      "length": 1347
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 294,
+    "fields": {
+      "timestamp": "2025-01-01T16:53:00",
+      "src_ip": "10.0.0.47",
+      "dst_ip": "192.168.1.39",
+      "proto": "ICMP",
+      "src_port": 53,
+      "dst_port": 5432,
+      "length": 306
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 295,
+    "fields": {
+      "timestamp": "2025-01-01T16:54:00",
+      "src_ip": "10.0.0.39",
+      "dst_ip": "192.168.1.14",
+      "proto": "TCP",
+      "src_port": 123,
+      "dst_port": 123,
+      "length": 1183
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 296,
+    "fields": {
+      "timestamp": "2025-01-01T16:55:00",
+      "src_ip": "10.0.0.22",
+      "dst_ip": "192.168.1.21",
+      "proto": "TCP",
+      "src_port": 5000,
+      "dst_port": null,
+      "length": 151
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 297,
+    "fields": {
+      "timestamp": "2025-01-01T16:56:00",
+      "src_ip": "10.0.0.19",
+      "dst_ip": "192.168.1.42",
+      "proto": "ICMP",
+      "src_port": 5000,
+      "dst_port": 443,
+      "length": 531
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 298,
+    "fields": {
+      "timestamp": "2025-01-01T16:57:00",
+      "src_ip": "10.0.0.21",
+      "dst_ip": "192.168.1.41",
+      "proto": "UDP",
+      "src_port": 123,
+      "dst_port": 8080,
+      "length": 629
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 299,
+    "fields": {
+      "timestamp": "2025-01-01T16:58:00",
+      "src_ip": "10.0.0.6",
+      "dst_ip": "192.168.1.28",
+      "proto": "ICMP",
+      "src_port": 5000,
+      "dst_port": 22,
+      "length": 308
+    }
+  },
+  {
+    "model": "network.record",
+    "pk": 300,
+    "fields": {
+      "timestamp": "2025-01-01T16:59:00",
+      "src_ip": "10.0.0.38",
+      "dst_ip": "192.168.1.29",
+      "proto": "ICMP",
+      "src_port": 443,
+      "dst_port": 3306,
+      "length": 403
+    }
+  }
+]

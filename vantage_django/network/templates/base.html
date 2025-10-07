@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VantagePLC — Django Research</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    .container { max-width: 1100px; margin: auto; }
+    table { font-size: 0.9rem; }
+    .chart-wrap { padding: 1rem; background: #f8f9fa; border-radius: 10px; }
+    .page-header { padding-left: 6rem; } 
+    .secondary { 
+      padding-left: 8rem;
+      padding-bottom: 3rem; } 
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="page-header">
+      <h1>VantagePLC — Django Research Milestone</h1>
+      <p class="secondary">By Tsbih Salman – Django app with a filter form and a chart.</p>
+    </header>
+    {% block content %}{% endblock %}
+    <footer><small>For the CSCE 490/492 Research Milestone</small></footer>
+  </main>
+</body>
+</html>

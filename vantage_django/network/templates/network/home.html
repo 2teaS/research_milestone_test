@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block content %}
+<section>
+  <form method="get" class="filter-form">
+  <div class="form-grid">
+    <label for="{{ form.src_ip.id_for_label }}">
+      {{ form.src_ip.label }}<br>
+      {{ form.src_ip }}
+      <small>{{ form.src_ip.help_text }}</small>
+    </label>
+
+    <label for="{{ form.dst_ip.id_for_label }}">
+      {{ form.dst_ip.label }}<br>
+      {{ form.dst_ip }}
+      <small>{{ form.dst_ip.help_text }}</small>
+    </label>
+
+    <label for="{{ form.proto.id_for_label }}">
+      {{ form.proto.label }}<br>
+      {{ form.proto }}
+      <small>{{ form.proto.help_text }}</small>  {# <-- ensure this line is present #}
+    </label>
+
+    <label for="{{ form.min_port.id_for_label }}">
+      {{ form.min_port.label }}<br>
+      {{ form.min_port }}
+      <small>{{ form.min_port.help_text }}</small>
+    </label>
+
+    <label for="{{ form.max_port.id_for_label }}">
+      {{ form.max_port.label }}<br>
+      {{ form.max_port }}
+      <small>{{ form.max_port.help_text }}</small>
+    </label>
+
+    <!-- right-side button column (Filter only) -->
+    <div class="btn-col">
+      <button type="submit">Filter</button>
+    </div>
+  </div>
+</form>
+
+<style>
+  .filter-form .form-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr)) 190px; /* 5 inputs + button col */
+    gap: 1rem;
+    align-items: end;
+  }
+  .filter-form .btn-col {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  @media (max-width: 900px) {
+    .filter-form .form-grid { grid-template-columns: 1fr; }
+    .filter-form .btn-col { flex-direction: row; }
+  }
+</style>
+
+
+</section>
+
+<section class="chart-wrap">
+  <h3>Top Destination Ports (first 5,000 filtered rows)</h3>
+  <canvas id="portsChart"></canvas>
+</section>
+
+<section>
+  <h3>Results ({{ count }} rows)</h3>
+  <div style="overflow-x:auto">
+    <table>
+      <thead>
+        <tr>
+          <th>Timestamp</th><th>Proto</th><th>Src</th><th>Dst</th><th>Sport</th><th>Dport</th><th>Len</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for r in records %}
+        <tr>
+          <td>{{ r.timestamp }}</td>
+          <td>{{ r.proto }}</td>
+          <td>{{ r.src_ip }}</td>
+          <td>{{ r.dst_ip }}</td>
+          <td>{{ r.src_port }}</td>
+          <td>{{ r.dst_port }}</td>
+          <td>{{ r.length }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<script>
+const labels = {{ chart_labels|safe }};
+const values = {{ chart_values|safe }};
+const ctx = document.getElementById('portsChart').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: { labels: labels, datasets: [{ label: 'Count', data: values }] },
+  options: {
+    responsive: true,
+    plugins: { legend: { display: true } },
+    scales: { y: { beginAtZero: true } }
+  }
+});
+</script>
+{% endblock %}
